@@ -41,7 +41,7 @@ function generateMonster(monster) {
     monsterDiv.appendChild(monstNote)
 }
 
-function newMonster(e){
+function newMonster(event){
     event.preventDefault()
     let monsterData = {
         name:  event.currentTarget[0].value,
